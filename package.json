@@ -21,7 +21,8 @@
   },
   "pnpm": {
     "overrides": {
-      "@types/eslint": "^7.0.0"
+      "@types/eslint": "^7.0.0",
+      "babel-plugin-htmlbars-inline-precompile": "github:candunaj/babel-plugin-htmlbars-inline-precompile#precompile-template-scope-renamed-import-build"
     }
   }
 }
