@@ -21,7 +21,8 @@
   },
   "pnpm": {
     "overrides": {
-      "@types/eslint": "^7.0.0"
+      "@types/eslint": "^7.0.0",
+      "ember-auto-import": "github:candunaj/ember-auto-import#added-babel-plugin-ember-template-compilation-build"
     }
   }
 }
