@@ -61,7 +61,7 @@ importers:
       '@ember/optional-features': ^2.0.0
       '@ember/string': ^3.0.1
       '@ember/test-helpers': ^2.9.3
-      '@embroider/test-setup': ^1.7.1
+      '@embroider/test-setup': ^2.1.1
       '@glimmer/component': ^1.1.2
       '@glimmer/tracking': ^1.1.2
       babel-eslint: ^10.1.0
@@ -103,7 +103,7 @@ importers:
       '@ember/optional-features': 2.0.0
       '@ember/string': 3.0.1
       '@ember/test-helpers': 2.9.3_ember-source@4.10.0
-      '@embroider/test-setup': 1.8.3
+      '@embroider/test-setup': 2.1.1
       '@glimmer/component': 1.1.2
       '@glimmer/tracking': 1.1.2
       babel-eslint: 10.1.0_eslint@7.32.0
@@ -1651,8 +1651,8 @@ packages:
       semver: 7.3.8
       typescript-memoize: 1.1.1
 
-  /@embroider/test-setup/1.8.3:
-    resolution: {integrity: sha512-BCCbBG7UWkCw+cQ401Ip6LnqTRaQDeKImxR+e7Q4oP6H4EBj7p4iGR1z6fhMy4NNyXKPB6jk3bGa9bTiiNoEAw==}
+  /@embroider/test-setup/2.1.1:
+    resolution: {integrity: sha512-t81a2z2OEFAOZVbV7wkgiDuCyZ3ajD7J7J+keaTfNSRiXoQgeFFASEECYq1TCsH8m/R+xHMRiY59apF2FIeFhw==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       lodash: 4.17.21
@@ -2026,7 +2026,7 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 7.29.0
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: true
 
   /@types/eslint/7.29.0:
