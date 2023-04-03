@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 overrides:
   '@types/eslint': ^7.0.0
   ember-auto-import: github:candunaj/ember-auto-import#added-babel-plugin-ember-template-compilation-build
+  babel-plugin-ember-template-compilation: github:candunaj/babel-plugin-ember-template-compilation#investigate-14-build
 
 importers:
 
@@ -1597,7 +1598,7 @@ packages:
       '@embroider/shared-internals': 2.0.0
       assert-never: 1.2.1
       babel-import-util: 1.3.0
-      babel-plugin-ember-template-compilation: 2.0.0
+      babel-plugin-ember-template-compilation: github.com/candunaj/babel-plugin-ember-template-compilation/be6eb9ab59bf3fe869555078e57360dcdef5c87f
       broccoli-node-api: 1.7.0
       broccoli-persistent-filter: 3.1.3
       broccoli-plugin: 4.0.7
@@ -2754,13 +2755,6 @@ packages:
     engines: {node: 6.* || 8.* || >= 10.*}
     dependencies:
       ember-rfc176-data: 0.3.18
-    dev: true
-
-  /babel-plugin-ember-template-compilation/2.0.0:
-    resolution: {integrity: sha512-d+4jaB2ik0rt9TH0K9kOlKJeRBHEb373FgFMcU9ZaJL2zYuVXe19bqy+cWlLpLf1tpOBcBG9QTlFBCoImlOt1g==}
-    engines: {node: '>= 12.*'}
-    dependencies:
-      babel-import-util: 1.3.0
     dev: true
 
   /babel-plugin-filter-imports/4.0.0:
@@ -4658,7 +4652,7 @@ packages:
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@ember/edition-utils': 1.2.0
-      babel-plugin-ember-template-compilation: 2.0.0
+      babel-plugin-ember-template-compilation: github.com/candunaj/babel-plugin-ember-template-compilation/be6eb9ab59bf3fe869555078e57360dcdef5c87f
       babel-plugin-htmlbars-inline-precompile: 5.3.1
       broccoli-debug: 0.6.5
       broccoli-persistent-filter: 3.1.3
@@ -11308,6 +11302,15 @@ packages:
   /yocto-queue/1.0.0:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
+    dev: true
+
+  github.com/candunaj/babel-plugin-ember-template-compilation/be6eb9ab59bf3fe869555078e57360dcdef5c87f:
+    resolution: {tarball: https://codeload.github.com/candunaj/babel-plugin-ember-template-compilation/tar.gz/be6eb9ab59bf3fe869555078e57360dcdef5c87f}
+    name: babel-plugin-ember-template-compilation
+    version: 2.0.0
+    engines: {node: '>= 12.*'}
+    dependencies:
+      babel-import-util: 1.3.0
     dev: true
 
   github.com/candunaj/ember-auto-import/5e53dd46cd2bbb67766d8a692c65d5befa72bd3d_webpack@5.76.2:
