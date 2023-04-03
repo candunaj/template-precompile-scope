@@ -3,6 +3,7 @@ import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 import Select from './internal/select';
 import RootSelect from './select';
+import { on } from '@ember/modifier';
 
 export default class MyButton extends Component {
   @tracked isClicked = false;
