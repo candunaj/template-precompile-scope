@@ -49,3 +49,5 @@ precompileTemplate(`
 From a javascript point of view, everything is correct and both examples are equivalent. But the second example will fail with the following error:
 
 [Scope objects for `precompileTemplate` may only contain direct references to in-scope values](https://github.com/candunaj/template-precompile-scope/actions/runs/4478830537/jobs/7872086147#step:7:62)
+
+The scope was fixed in [babel-plugin-htmlbars-inline-precompile](https://github.com/ember-cli/babel-plugin-htmlbars-inline-precompile/pull/486) and added as override to package json. Now tests are passing.
